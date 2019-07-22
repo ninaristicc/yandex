@@ -22,7 +22,7 @@ const IndexPage = () => (
     <p>It’s an online account where you can manage your money just as you would with a normal wallet. You take some cash with you or you grab your credit/debit card, depending on the situation, you place it in your wallet, and start spending. The same applies to a digital wallet. After you’ve created your account following some simple steps - in most cases, just typing your name, e-mail address, and password - you can top-up your ewallet by adding funds via a variety of sources likebank transfer, credit/debit card, or even the trending prepaid vouchers like paysafecard or neosurf.</p>
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageOne /> </div>
-    <p>After that, the (online) world is yours for the taking. You can spend your ewallet money on virtually anything, from food, clothes, appliances, and electronics to various services like online courses, hosting & domain registrations, IT troubleshooting, you name it. The possibilities are endless!</p>
+    <p>After that, the (online) world is yours for the taking. You can spend your ewallet money on virtually anything, from food, clothes, and electronics to various services like online courses, hosting & domain registrations, IT troubleshooting, you name it. The possibilities are endless!</p>
     <h3>Top-Rated eWallet For General Use</h3>
     <div class="content-box"><div class="image-box" style={{ width: "100%", position: "relative", height: "5.5em" }}><ImageHero /></div>
     <h4>PayPal</h4>
