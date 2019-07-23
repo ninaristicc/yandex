@@ -15,7 +15,7 @@ const SecondPage = () => (
     <p>Why the actual grandfather? Because PayPal was established in December 1998, during the famous dot.com bubble. Actually, it was one of the few that survived the dot.com bubble burst, in the early 2000s.</p></article>
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
-    <p>Interestingly enough, the initial name of the service was Confinity and only after a merger with Elon Musk’s company X.com, it was renamed to PayPal, in 2001.
+    <p class="contP">Interestingly enough, the initial name of the service was Confinity and only after a merger with Elon Musk’s company X.com, it was renamed to PayPal, in 2001.
 
 18 years later, the payment service is ranked 222nd by revenue in the top US corporations published by Fortune 500 ($15.45 billion in 2018 alone). Currently, it has close to 280 million active accounts across more than 200 markets, and almost 22,000 employees worldwide.</p>
   </Layout>

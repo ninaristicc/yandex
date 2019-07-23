@@ -65,7 +65,7 @@ const SecondPage = () => (
     <p>There are various ways to top-up your Yandex Money wallet, especially for Russians however, transferring PayPal cash to Yandex Money isn’t one of them. Neither is exchanging Bitcoin via the ewallet. Nevertheless, there are many e-money exchangers on the web that might get the job done. One of the most popular is bestchange.ru. Be sure to check every one of them before actually trying them out; they usually operate in a grey area and there is a risk of being scammed if you don’t pay attention.</p>
     <h2>Summary</h2>
     <p>Yandex Money is an emerging e-wallet that has taken Russia and all countries from the Commonwealth of Independence States by storm. Will it take the whole world also, threatening the big Western payment services like PayPal or Skrill? Time will tell, but so far, things look promising for the Russian-based company.</p>
-    <p>Be sure to try it out and see if it’s up your alley. Who knows, you may just fall for it and soon enough, use it as your default payment service online.</p></article>
+    <p class="contP">Be sure to try it out and see if it’s up your alley. Who knows, you may just fall for it and soon enough, use it as your default payment service online.</p></article>
   </Layout>
 )
 
