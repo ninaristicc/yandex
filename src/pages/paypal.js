@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ImageHero from "../components/ImageHero"
-import ImageFour from "../components/ImageFour"
+import ImageFour from "../components/imageFour"
 
 const SecondPage = () => (
   <Layout>
