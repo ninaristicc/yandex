@@ -10,9 +10,7 @@ import ImageHero from "../components/ImageHero"
 
 const IndexPage = () => (
   <Layout>
-    <head><link rel="canonical" href="https://yandex-demo.netlify.com//index" />
-    <SEO title="Home page" /></head>
-    <body>
+    <SEO title="Home page" />
     <div class="ecocontent">
     <h1 class="main-h">Choose The Best eWallet App In 2019</h1>
     <article><p>Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option.</p></article>
@@ -70,7 +68,6 @@ const IndexPage = () => (
       <p class="time"><svg class="contentIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path><path d="M0 0h24v24H0z" fill="none"></path><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>Wednesday, July 3rd, 2019, 7:15:49 AM</p>
       </article>
     </aside>
-    </body>
   </Layout>
 )
 
