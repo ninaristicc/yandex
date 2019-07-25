@@ -1,40 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
+import ImageFour from "../components/imageFour"
 import ImageTwo from "../components/imageTwo"
 import ImageThree from "../components/imageThree"
-import ImageFour from "../components/imageFour"
-import ImageFive from "../components/imageFive"
+import Image from "../components/image"
 
-const ThirdPage = () => (
+const PageSeven = () => (
   <Layout>
     <SEO title="Page two" />
     <div class="ecocontent">
-    <article>
-    <h1 class="main-h">Hi from the EcoCard page</h1>
-    <p class="time"><svg class="contentIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path><path d="M0 0h24v24H0z" fill="none"></path><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>Monday, July 8th, 2019, 5:36:52 PM</p>
-    <div class="sideImg"><ImageThree /></div>
-    <p>One of the most common problems an Internet user is facing with online payments is… variety. Indeed, choosing from countless options can be both a blessing… and a curse, especially if you don’t know what you are doing.</p>
-    <div class="sideImg"><ImageFour /></div>
-    <p>More often than not, an ewallet is the best online payment option out there, but what can you do when you suddenly realize the ewallet market is as congested as New York City during rush hour?<br></br><br></br>
+    <h1 class="main-h">Skrill Review & Online Casinos Accepting Skrill in 2019</h1>
+    <article><p>PayPal may be the most established ewallet on the web with widespread usage all over the world, but Skrill is definitely the default epayment gateway for all users who also like to live life to the fullest and feel some gold old adrenaline rush, from time to time.</p>
+    <h2>About Paypal</h2>
+    <p>Indeed, most online casino players use Skrill to both make a deposit on their favorite gaming platform & cash out their big-time winnings. The eWallet is accepted by countless online casinos, plus hundreds of thousands of online merchants, from all six habitable continents. With Skrill, you simply can’t go wrong.</p></article>
+    <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
+    <ImageFour /> </div>
+    <p class="contP">Interestingly enough, the initial name of the service was Confinity and only after a merger with Elon Musk’s company X.com, it was renamed to PayPal, in 2001.
 
-Each and every website promises you convenience and transactions in a blink of an eye, yet what happens when those expectations aren’t actually met? Most importantly, how can you avoid these situations?<br></br><br></br>
-
-You can very well start by reading this blog post and follow our tips on how to choose the best ewallet out there for your specific needs.</p>
-<h2 class="main-h">Location, Location… Location</h2>
-<p>First and foremost, it is very important to make an educated choice based on your country of residence.</p>
-
-<p>You may find many ewallets, most with similar features, but you have to pay attention to the countries these ewallets target specifically. For example, online payment services like Yandex Money will be best suited for Russian-based Internet users. You can still register if you are a resident of another country, however, to get verified, you will need to send the documents attesting your ID and proof and residence to Russia via mail.</p>
-<div class="sideImg"><ImageFive /></div>
-<p class="contP">On the other hand, WebMoney may be a much better choice if you live in the US. WebMoney is a Russian-based company that has extended to well beyond its home country’s borders and is now a conglomerate of companies from all around the world, each making sure the funds are safe and guaranteed, no matter your region, US, Europe, or Russia.
-
-Moreover, if you are used to using the handy prepaid vouchers and you are based in Australia, you can try myneosurf ewallet and never look back. Any Aussie can exchange the popular Neosurf vouchers to myneosurf money and use them for a variety of payments on & offline. Remember, myneosurf also offers a personalized Mastercard for you to use everywhere, even if you are on holiday, far away from the Down Under.</p>
-    <Link to="/">Go back to the homepage</Link> </article></div>
-    <aside class="sideBar">
-    <div class="wrap">
+18 years later, the payment service is ranked 222nd by revenue in the top US corporations published by Fortune 500 ($15.45 billion in 2018 alone). Currently, it has close to 280 million active accounts across more than 200 markets, and almost 22,000 employees worldwide.</p>
+      </div> 
+      <aside class="sideBar">
+      <div class="wrap">
     <div class="search">
       <input type="text" class="searchTerm" placeholder="Search.."></input>
       <button type="submit" class="searchButton">
@@ -42,7 +29,7 @@ Moreover, if you are used to using the handy prepaid vouchers and you are based 
      </button>
    </div>
    </div>
-      <h2 class="side-h">Latest News</h2>
+         <h2 class="side-h">Latest News</h2>
       <article class="side-article">
       <div class="sideImg"><Image /></div>
       <a href="/" class="side-a">Is Bitcoin The Future Of Online Paymants?</a>
@@ -65,4 +52,4 @@ Moreover, if you are used to using the handy prepaid vouchers and you are based 
   </Layout>
 )
 
-export default ThirdPage
+export default PageSeven

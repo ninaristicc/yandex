@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`, `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`, 
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
@@ -25,6 +25,13 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/yandex.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://yandex-demo.netlify.com/`,
+        stripQueryString: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

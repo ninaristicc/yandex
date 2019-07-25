@@ -1,10 +1,13 @@
-import { Link } from "gatsby"
+import {Link } from "gatsby"
+import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import ImageLogo from "../components/logo"
 import ImageImg from "../components/imgimg"
 
-const Header = () => (
+
+const Header = ({getRevolut}) => (
+
   <header style={{ background: `#fff`, marginBottom: `1.45rem` }} >
     <div style={{margin: `0 auto`, maxWidth: 960}}>     
       <div class="logo-style">
@@ -19,6 +22,8 @@ const Header = () => (
     <a href="/ecocard/">EcoCard</a>
     <a href="/yandex/">Yandex</a>    
     <a href="/other/">Other</a>  
+    <a href="/ecopayz/">EcoPayz</a>  
+    <a href="/skrill/">Skrill</a>  
     </div>
     </div>
     <div class="hero-image"><ImageImg /></div>
@@ -30,7 +35,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `getRevolut`,
 }
 
 export default Header

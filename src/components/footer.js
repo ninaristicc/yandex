@@ -10,6 +10,8 @@ const Footer = () => (
         <li><Link to="/ecocard/">EcoCard </Link></li>
         <li><Link to="/yandex/">Yandex</Link></li>
         <li><Link to="/other/">Other</Link></li>
+        <li><Link to="/ecopayz/">EcoPayz</Link></li>
+        <li><Link to="/skrill/">Skrill</Link></li>
       </ul>
 </footer>
 )
