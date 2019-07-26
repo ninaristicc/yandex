@@ -4,7 +4,6 @@ import Image from "../components/image"
 import ImageOne from "../components/imageOne"
 import ImageTwo from "../components/imageTwo"
 import ImageThree from "../components/imageThree"
-import ImageLogo from "../components/logo"
 import SEO from "../components/seo"
 import ImageHero from "../components/ImageHero"
 
