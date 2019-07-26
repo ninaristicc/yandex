@@ -33,11 +33,11 @@ const IndexPage = () => (
     <h4>Yandex</h4>
     <p>PayPal is the most popular ewallet on the Internet. With almost 280 million active accounts from over 200 markets around the world, it is as used as the VISA/Mastercard option online.</p>
     <a class="button" href="/yandex/">Read More</a></div>
-    <div class="content-box"><div class="image-box" style={{ width: "100%", position: "relative", height: "5.5em" }}><ImageHero /></div>
+    <div class="contP"><div class="content-box"><div class="image-box" style={{ width: "100%", position: "relative", height: "5.5em" }}><ImageHero /></div>
     <h4>EcoCard</h4>
     <p>PayPal is the most popular ewallet on the Internet. With almost 280 million active accounts from over 200 markets around the world, it is as used as the VISA/Mastercard option online.</p>
     <a class="button" href="/ecocard/">Read More</a></div></div>
-    </div>
+    </div></div>
 
     <aside class="sideBar">
     <div class="wrap">

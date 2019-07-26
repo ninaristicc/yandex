@@ -717,6 +717,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.3.1":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+  integrity sha512-28QvEGyQyNkB0/m2B4FU7IEZGK2NUrcMtT6BZEFALTguLk+AUT6ofsHtPk5QyjAdUkpMJ+/Em+quwz4HOt30AQ==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -3544,6 +3551,11 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
+depd@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
+  integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+
 depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
@@ -5012,6 +5024,13 @@ gatsby-plugin-page-creator@^2.1.1:
     glob "^7.1.1"
     lodash "^4.17.10"
     micromatch "^3.1.10"
+
+gatsby-plugin-react-helmet-canonical-urls@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet-canonical-urls/-/gatsby-plugin-react-helmet-canonical-urls-1.2.0.tgz#d054220c3cfecb257b82d2fff3a8688dbd81d0c3"
+  integrity sha512-nulC+BWEZQfyd8jhcb6ECE/BNArY2U+SOy1DmcwhMHs7rgWLTd8t9fXw/B9JCUQQrF9yXyqupj34sQSeQfsyBQ==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
 
 gatsby-plugin-react-helmet@^3.1.0:
   version "3.1.0"

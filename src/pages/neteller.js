@@ -10,15 +10,23 @@ const PageSeven = () => (
   <Layout>
     <SEO title="Page two" />
     <div class="ecocontent">
-    <h1 class="main-h">PayPal eWallet & Casinos That Accept PayPal</h1>
-    <article><p>In case you like and want to stick around with the best, you are in the right place. There’s no need for more searching on the web: PayPal is the largest and most popular ewallet out there, there’s no doubt about it. That is why we won’t bug you with details you most likely have heard or read countless times. We’ll only show you the cold hard facts that place Paypal on top of the ewallet mountain. The same cold hard facts that will confirm you made the right choice to research out the grandfather of epayments and try it out for your online casino deposits & withdrawals.</p>
-    <h2>About Paypal</h2>
-    <p>Why the actual grandfather? Because PayPal was established in December 1998, during the famous dot.com bubble. Actually, it was one of the few that survived the dot.com bubble burst, in the early 2000s.</p></article>
+    <h1 class="main-h">Neteller Review & Neteller Casinos For 2019</h1>
+    <article><p>Neteller is the OG aka Original Gangster epayment for the online casinos, doing business with the industry since 2000, before the online gambling frenzy started and long before the top dog PayPal even considered targeting its services to this niche.</p>
+    <p>From the get-go, Neteller specialized in offering a reliable payment gateway between the casino websites and the players willing to try out different casino games from the comfort of their home, by just accessing the Internet. Since PayPal isn’t that used in online gambling anymore and with Skrill having been bought by the company owning Neteller, we can now say the ewallet has definitely made the winning bet.</p></article>
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
     <p class="contP">Interestingly enough, the initial name of the service was Confinity and only after a merger with Elon Musk’s company X.com, it was renamed to PayPal, in 2001.
-
 18 years later, the payment service is ranked 222nd by revenue in the top US corporations published by Fortune 500 ($15.45 billion in 2018 alone). Currently, it has close to 280 million active accounts across more than 200 markets, and almost 22,000 employees worldwide.</p>
+      <h2>What Is Neteller?</h2>
+      <p>Neteller like its brother Skrill and main competitor PayPal is an ewallet. The service was created 20 years ago, in 1999, in Canada. It began processing epayments for online casinos in July 2000 and soon enough, it was processing transactions for 85% of the world’s egaming operators.</p>
+        <p>In 2004, Neteller moved to the Isle of Man while still targeting the US market, its main source of revenue. However, in 2006, with a new legislation in place, the company had to exit the US and diversified its services outside the online gambling market.</p>
+        <ImageThree />
+        <p>The company owning Neteller renamed itself to Optimal Payments Plc and in 2015, it managed to acquire competitor Skrill for 1.1 billion EUR. Since Skrill bought paysafecard before the acquisition, Optimal Payments went through a second rebranding to Paysafe Group, as it is known today.</p>
+        <h2>How Neteller Works</h2>
+        <p>Like any other ewallet, you first have to create an account and join a user-base consisting of around 23 million people. The registration is quite hassle-free; all you have to do is type your full name, e-mail, and a good-enough password.</p>
+        <ImageTwo />
+        <p>After your first Neteller login, you’ll notice quite a few limitations, including a lifetime funding limit for your account ($500, $1500, or $2000, depending on your country of residence). That’s because you aren’t verified.</p>
+        <p class="contP">The ewallet will still be able to process transactions over the limit, but once the limit is reached, your basic account will be frozen and you will be required to go through the verification process to unlock. To get verified, you’ll need a copy of your ID, a link to your Facebook account, photo of yourself with your ID using the mobile app, plus a proof-of-residence. Click here for more information about how you can verify your Neteller account.</p>
       </div> 
       <aside class="sideBar">
            <div class="wrap">
