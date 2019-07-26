@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Get eWallet`,
-    description: `Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option`,  },
+    description: `Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option`,
+  },
   plugins: [
-    `gatsby-plugin-react-helmet`, 
+    `gatsby-plugin-react-helmet`, `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`, 
       options: {
@@ -12,11 +13,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-      options: {
-        siteUrl: `https://yandex-demo.netlify.com/`,
-      },
+    resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+    options: {
+      siteUrl: `https://yandex-demo.netlify.com/`,
     },
+  },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -31,7 +32,13 @@ module.exports = {
         icon: `src/images/yandex.png`, // This path is relative to the root of the site.
       },
     },
-
+    `gatsby-plugin-react-helmet`,
+  {
+    resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+    options: {
+      siteUrl: `https://www.example.com`,
+    },
+  },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
