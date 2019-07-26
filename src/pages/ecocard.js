@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
@@ -11,7 +10,7 @@ import ImageFive from "../components/imageFive"
 
 const ThirdPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Eco card" />
     <div class="ecocontent">
     <article>
     <h1 class="main-h">Hi from the EcoCard page</h1>

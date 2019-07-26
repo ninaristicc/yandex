@@ -9,7 +9,7 @@ import ImageHero from "../components/ImageHero"
 
 const PageSix = () => (
   <Layout>
-    <SEO title="Home page" />
+    <SEO title="Eco payz" />
     <div class="ecocontent">
     <h1 class="main-h">Full Review Of ecoPayz eWallet & ecoPayz Casinos In 2019</h1>
     <article><p>While ecoPayz may not be the most popular choice in terms of online payments out there, it may be one of the safest and reliable you will ever find. Why safe and reliable? Because ecoPayz is one of the first ewallets that hit the Internet with a bang. You’ll have to go way back to 2000 to search for its roots.</p></article>

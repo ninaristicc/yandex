@@ -8,7 +8,7 @@ import Image from "../components/image"
 
 const PageSeven = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Skrill" />
     <div class="ecocontent">
     <h1 class="main-h">Skrill Review & Online Casinos Accepting Skrill in 2019</h1>
     <article><p>PayPal may be the most established ewallet on the web with widespread usage all over the world, but Skrill is definitely the default epayment gateway for all users who also like to live life to the fullest and feel some gold old adrenaline rush, from time to time.</p>

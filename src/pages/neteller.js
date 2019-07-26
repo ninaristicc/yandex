@@ -8,7 +8,7 @@ import Image from "../components/image"
 
 const PageSeven = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Neteller" />
     <div class="ecocontent">
     <h1 class="main-h">Neteller Review & Neteller Casinos For 2019</h1>
     <article><p>Neteller is the OG aka Original Gangster epayment for the online casinos, doing business with the industry since 2000, before the online gambling frenzy started and long before the top dog PayPal even considered targeting its services to this niche.</p>

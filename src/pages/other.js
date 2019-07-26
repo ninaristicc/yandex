@@ -11,7 +11,7 @@ import ImageFive from "../components/imageFive"
 
 const PageFive = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Other" />
     <div class="ecocontent"><article><h1 class="main-h">WebMoney Review & Online Casinos Accepting WebMoney in 2019</h1>
     <p>WebMoney is such a service that can compete with the likes of PayPal or Skrill, at any time & in many places around the world. While it started as a Russian online payment solution in November 1998, during the last decade, the company has expanded its services to other markets like the EU or the US, 100% legitimately as you will read in our honest WebMoney review below.</p>
     <p>Yandex Money is part of the Yandex corporation - the biggest tech company and search engine in all Russia! The payment service was first brought forth to the audience in 2013 when Yandex joined forces with Russia’s largest bank Sberbank to create a brand new and competitive ewallet and business-to-business payment solution.</p></article>
