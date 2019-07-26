@@ -24,6 +24,7 @@ const Header = ({getRevolut}) => (
     <a href="/other/">Other</a>  
     <a href="/ecopayz/">EcoPayz</a>  
     <a href="/skrill/">Skrill</a>  
+    <a href="/neteller/">Neteller</a>  
     </div>
     </div>
     <div class="hero-image"><ImageImg /></div>
