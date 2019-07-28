@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
@@ -10,6 +10,34 @@ import ImageFive from "../components/imageFive"
 
 const PageEight = () => (
   <Layout>
+
+    <StaticQuery
+      query={graphql`
+        query MyQuery {
+          allBlogItemJson {
+            nodes {
+              id
+              link
+              title
+            }
+          }
+        }
+      `}
+      render={data => {
+        const sidebarItemBlog = [];
+        console.warn(data)
+        data.allBlogItemJson.nodes.forEach(item =>
+          sidebarItemBlog.push(
+            <div className="nina-blog">
+              <p>{item.title}</p>
+              <p>{item.link}</p>
+            </div>
+          )
+        );
+        return sidebarItemBlog;
+      }}
+    />
+
     <SEO title="Eco card" />
     <div class="ecocontent">
     <article>

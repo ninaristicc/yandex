@@ -5,3 +5,15 @@
  */
 
 // You can delete this file if you're not using it
+module.exports = {
+  blogPosts: [
+    {
+      title: 'nesto',
+      count: 1,
+    },
+    {
+      title: 'nesto 2',
+      count: 32,
+    }
+  ]
+}
