@@ -8,29 +8,27 @@ import ImageImg from "../components/imgimg"
 const Header = ({getRevolut}) => (
 
   <header style={{ background: `#fff`, marginBottom: `1.45rem` }} >
-    {/* <script src="https://code.jquery.com/jquery-3.4.1.js"></script> */}
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <div style={{margin: `0 auto`, maxWidth: 960}}>     
+      <div class="logo-style">
+      <Link to="/"> <ImageLogo /></Link></div>
+    </div>
     <div class="nav">
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
-        <ul class="navbar">
-        <li><div style={{margin: `0 auto`, maxWidth: 960}}>     
-      <div class="logo-style">
-      <Link to="/"> <ImageLogo /></Link></div>
-    </div></li>
-    <li><a href="/">Home</a></li>
-    <li><a href="#ewallet">What Is An eWallet?</a></li>
-    <li><a href="/paypal/">PayPal</a></li>
-    <li><a href="#aboutpp">About PayPal</a></li>
-    <li><a href="/ecocard/">EcoCard</a></li>
-    <li><a href="#location">Location</a></li>
-    <li><a href="/yandex/">Yandex</a> </li>
-    <li><a href="/other/">Other</a>  </li>
-    <li><a href="/ecopayz/">EcoPayz</a>  </li>
-    <li><a href="/skrill/">Skrill</a>  </li>
-    <li><a href="/neteller/">Neteller</a>  </li>
-    <li><a href="/blog/">Blog/News</a> </li> 
-    </ul>
+      <div class="menu">
+    <a href="/">Home</a>
+    <a href="#ewallet">What Is An eWallet?</a>
+    <a href="#generaluse">Top-Rated eWallet For General Use</a>
+    <a href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+    {/* <a href="#location">Location</a>
+    <a href="/yandex/">Yandex</a>    
+    <a href="/other/">Other</a>  
+    <a href="/ecopayz/">EcoPayz</a>  
+    <a href="/skrill/">Skrill</a>  
+    <a href="/neteller/">Neteller</a>  
+    <a href="/blog/">Blog/News</a>   */}
+    </div>
     </div>
     <div class="hero-image"><ImageImg /></div>
   </header>

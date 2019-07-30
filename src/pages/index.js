@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home page" />
     <div class="ecocontent">
-    <h1 class="main-h">Choose The Best eWallet App In 2019</h1>
+    <h1 class="main-h" >Choose The Best eWallet App In 2019</h1>
     <article><p>Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option.</p></article>
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageTwo /> </div>
@@ -25,12 +25,12 @@ const IndexPage = () => (
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageOne /> </div>
     <p>After that, the (online) world is yours for the taking. You can spend your ewallet money on virtually anything, from food, clothes, and electronics to various services like online courses, hosting & domain registrations, IT troubleshooting, you name it. The possibilities are endless!</p>
-    <h3>Top-Rated eWallet For General Use</h3>
+    <h3 id="generaluse">Top-Rated eWallet For General Use</h3>
     <div class="content-box"><div class="image-box" style={{ width: "100%", position: "relative", height: "5.5em" }}><ImageHero /></div>
     <h4>PayPal</h4>
     <p>PayPal is the most popular ewallet on the Internet. With almost 280 million active accounts from over 200 markets around the world, it is as used as the VISA/Mastercard option online.</p>
     <a class="button" href="/paypal/">Read More</a></div>
-    <h3>Best eWallets for Online Casinos & Gambling</h3>
+    <h3 id="casinos">Best eWallets for Online Casinos & Gambling</h3>
     <div class="grid"><div class="content-box"><div class="image-box" style={{ width: "100%", position: "relative", height: "5.5em" }}><ImageHero /></div>
     <h4>Yandex</h4>
     <p>PayPal is the most popular ewallet on the Internet. With almost 280 million active accounts from over 200 markets around the world, it is as used as the VISA/Mastercard option online.</p>

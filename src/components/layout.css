@@ -28,31 +28,18 @@ p{
   overflow: hidden;
 }
 .nav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: #f2f2f2;
   border-bottom: 1px solid #F2FBEF;
   text-align: right;
   height: auto;
   min-height: 69px;
   line-height: 69px;
+}
+.menu{
+  margin: 0 30px 0 0;
   z-index: 100;
+
 }
-.navbar{
-  display: flex;
-  justify-content: right;
-  list-style: none;
-}
-ul .navbar{
-  margin: 0;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.nav a {
+.menu a {
   clear: right;
   text-decoration: none;
   color: #dba074;
@@ -229,10 +216,7 @@ p.time svg {
   cursor: pointer;
   font-size: 20px;
 }
-.blog-a{
-  text-decoration: none;
-  font-size: 18px;
-}
+
 /*Resize the wrap to see the search bar change!*/
 .wrap{
   width: 50%;
@@ -564,9 +548,16 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
+  margin-left: 1.45rem;
   margin-right: 0;
+  margin-top: 0;
   padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 0;
+  margin-bottom: 1.45rem;
+  list-style-position: outside;
+  list-style-image: none;
 }
 ol {
   margin-left: 1.45rem;
@@ -841,9 +832,6 @@ pre tt:after {
 }
 .mainMenu {
   font-size: '10px;';
-}
-.menu {
-  font-size: 10px;
 }
 .search{
   border-radius: 22px;
