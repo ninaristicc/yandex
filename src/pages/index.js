@@ -19,7 +19,7 @@ const IndexPage = () => (
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>
     <ImageTwo /> </div>
     <article><p>It doesn’t matter where you live & it doesn’t matter why you do it, having an ewallet account in 2019 is virtually mandatory. Just ask the hundreds of millions of customers who use an ewallet application on a day-to-day basis. Don’t worry if you aren’t familiar with this awesome payment method or you are on an information overload after searching for the best digital wallet for you. We’re here to help by providing you with only the best options out there. Follow our eWallet Reviews 2019.</p>
-    <h2>What Is An eWallet?</h2>
+    <h2 id="eWallet">What Is An eWallet?</h2>
     <p>An ewallet or a digital wallet is nothing more than a web application developed by a payment processing company that greatly facilitates the communication between a buyer and a seller.</p></article>
     <p>It’s an online account where you can manage your money just as you would with a normal wallet. You take some cash with you or you grab your credit/debit card, depending on the situation, you place it in your wallet, and start spending. The same applies to a digital wallet. After you’ve created your account following some simple steps - in most cases, just typing your name, e-mail address, and password - you can top-up your ewallet by adding funds via a variety of sources likebank transfer, credit/debit card, or even the trending prepaid vouchers like paysafecard or neosurf.</p>
     <div class="center-image" style={{ maxWidth: `600px`, marginBottom: `1.45rem` }}>

@@ -23,7 +23,7 @@ const ThirdPage = () => (
 Each and every website promises you convenience and transactions in a blink of an eye, yet what happens when those expectations aren’t actually met? Most importantly, how can you avoid these situations?<br></br><br></br>
 
 You can very well start by reading this blog post and follow our tips on how to choose the best ewallet out there for your specific needs.</p>
-<h2 class="main-h">Location, Location… Location</h2>
+<h2 class="main-h" id="location">Location, Location… Location</h2>
 <p>First and foremost, it is very important to make an educated choice based on your country of residence.</p>
 
 <p>You may find many ewallets, most with similar features, but you have to pay attention to the countries these ewallets target specifically. For example, online payment services like Yandex Money will be best suited for Russian-based Internet users. You can still register if you are a resident of another country, however, to get verified, you will need to send the documents attesting your ID and proof and residence to Russia via mail.</p>
