@@ -29,7 +29,7 @@ const PageSeven = () => (
      </button>
    </div>
    </div>
-         <h2 class="side-h">Latest News</h2>
+         <h2 class="side-h">Latest News/Blogs</h2>
       <article class="side-article">
       <div class="sideImg"><Image /></div>
       <a href="/" class="side-a">Is Bitcoin The Future Of Online Paymants?</a>

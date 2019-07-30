@@ -3,7 +3,7 @@ module.exports = {
     title: `Get eWallet`,
     description: `Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option`,
     author: `@gatsbyjs`,
-  },
+  }, 
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
