@@ -19,9 +19,9 @@ const Header = ({getRevolut}) => (
       <Link to="/"> <ImageLogo /></Link></div>
     </div></li>
     <li><a href="/">Home</a></li>
-    <li><a href="#eWallet">What Is An eWallet?</a></li>
+    <li><a href="#ewallet">What Is An eWallet?</a></li>
     <li><a href="/paypal/">PayPal</a></li>
-    <li><a href="#AboutPP">About PayPal</a></li>
+    <li><a href="#aboutpp">About PayPal</a></li>
     <li><a href="/ecocard/">EcoCard</a></li>
     <li><a href="#location">Location</a></li>
     <li><a href="/yandex/">Yandex</a> </li>
