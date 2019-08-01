@@ -8,6 +8,15 @@ import ImageImg from "../components/imgimg"
 const Header = ({getRevolut}) => (
 
   <header>
+    {/* <nav>
+      <div class="logo"><ImageLogo /></div>
+      <ul>
+        <li><a href=s"/testpage/" class="active">Test</a></li>
+        <li><a href="#ewallet">What Is An eWallet?</a></li>
+        <li><a href="#generaluse">Top-Rated eWallet For General Use</a></li>
+        <li><a href="#casinos">Best eWallets for Online Casinos & Gambling</a></li>
+      </ul>
+    </nav> */}
     <div style={{margin: `0`, maxWidth: 200}}>     
       <div class="logo-style">
       <Link to="/"> <ImageLogo /></Link></div>
@@ -16,12 +25,12 @@ const Header = ({getRevolut}) => (
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-      <Link to="/testpage/">Test</Link>
+     <a href="/testpage/#top">Test</a>
     <a href="#ewallet">What Is An eWallet?</a>
     <a href="#generaluse">Top-Rated eWallet For General Use</a>
     <a href="#casinos">Best eWallets for Online Casinos & Gambling</a>
-    {/* <a href="#location">Location</a>
-    <a href="/yandex/">Yandex</a>    
+    {/* <a href="#location">Location</a> */}
+    {/* <a href="/yandex/">Yandex</a>    
     <a href="/other/">Other</a>  
     <a href="/ecopayz/">EcoPayz</a>  
     <a href="/skrill/">Skrill</a>  
@@ -31,15 +40,6 @@ const Header = ({getRevolut}) => (
     </div>
   </header>
 )
-
-// $(window).on("scroll", function () {
-// if($(window).scrollTop()){
-// $('nav').addClass('sticky');
-// }
-// else {
-// $('nav').removeClass('sticky')
-// }
-// })
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

@@ -24,8 +24,7 @@ const Layout = ({ children }) => {
     }
   `)
   if (typeof window !== 'undefined') {
-    // Make scroll behavior of internal links smooth
-    // eslint-disable-next-line global-require
+//scroll
     require('smooth-scroll')('a[href*="#"]');
   }
 
