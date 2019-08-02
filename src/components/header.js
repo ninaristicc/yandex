@@ -8,15 +8,7 @@ import ImageImg from "../components/imgimg"
 const Header = ({getRevolut}) => (
 
   <header>
-    {/* <nav>
-      <div class="logo"><ImageLogo /></div>
-      <ul>
-        <li><a href=s"/testpage/" class="active">Test</a></li>
-        <li><a href="#ewallet">What Is An eWallet?</a></li>
-        <li><a href="#generaluse">Top-Rated eWallet For General Use</a></li>
-        <li><a href="#casinos">Best eWallets for Online Casinos & Gambling</a></li>
-      </ul>
-    </nav> */}
+<nav>
     <div style={{margin: `0`, maxWidth: 200}}>     
       <div class="logo-style">
       <Link to="/"> <ImageLogo /></Link></div>
@@ -38,6 +30,7 @@ const Header = ({getRevolut}) => (
     <a href="/blog/">Blog/News</a>   */}
     </div>
     </div>
+    </nav>
   </header>
 )
 
