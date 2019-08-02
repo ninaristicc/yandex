@@ -86,7 +86,7 @@ p{
 }
 .article-style p{
   margin: auto auto 30px;
-  font-size: 9px;
+  font-size: 13px;
 }
 .nav{  
   text-align: right;
@@ -248,7 +248,7 @@ label{
   margin-bottom: 70px;
 }
 .side-p{
-  font-size: 15px;
+  font-size: 10px;
 }
 p.time {
   font-size: .8em;
