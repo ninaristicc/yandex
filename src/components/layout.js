@@ -30,6 +30,8 @@ require('smooth-scroll')('a[href*="#"]', {
   offset: 60,
 });
   }
+ 
+
 
   return (
     <>
