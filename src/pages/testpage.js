@@ -19,7 +19,7 @@ const TestPage = () => (
     <div class="center-image" style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
     <ImageTwo /> </div>
     <p>Just ask the hundreds of millions of customers who use an ewallet application on a day-to-day basis. Don’t worry if you aren’t familiar with this awesome payment method or you are on an information overload after searching for the best digital wallet for you. We’re here to help by providing you with only the best options out there. Follow our eWallet Reviews 2019.</p>
-    <button class="first-button"><a href="#ewallet">Learn more</a></button></article>
+    <a class="first-button" href="#ewallet">Learn more</a></article>
     </div>
     <div class="slide2">
     <article class="article-style">

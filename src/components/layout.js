@@ -25,8 +25,10 @@ const Layout = ({ children }) => {
   `)
   if (typeof window !== 'undefined') {
 //scroll
-    require('smooth-scroll')('a[href*="#"]');
-    
+require('smooth-scroll')('a[href*="#"]', {
+  header: '.nav',
+  offset: 60,
+});
   }
 
   return (

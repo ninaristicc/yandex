@@ -31,36 +31,33 @@ p{
   width: 100%;
   padding: 60px 0;
   display: table;
-  /* background: url(https://images7.alphacoders.com/546/546027.jpg); */
-  background-color: #A8D0E6;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;  
+  background: rgb(193,200,228);
+  background: linear-gradient(0deg, rgba(193,200,228,1) 35%, rgba(132,206,235,1) 100%);
+
 }
 .slide2 {
   padding: 60px 0;
  height: 100vh;
   width: 100%;
   display: table;
-  background: #F8E9A1;
+  background: rgb(86,128,233);
+background: linear-gradient(0deg, rgba(86,128,233,1) 0%, rgba(193,200,228,1) 100%);
 }
 .slide3{
   padding: 60px 0;
   height: 100vh;
   width: 100%;
   display: table;
-  /* background: url(http://www.sakura.in.th/images/BG/bg-squares-3d.jpg); */
-  background-color: #A8D0E6;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(136,96,208);
+background: linear-gradient(0deg, rgba(132,206,235,1) 0%, rgba(86,128,233,1) 78%);
 }
 .slide4{
   padding: 60px 0;
   height: 100vh;
   width: 100%;
   display: table;
-  background: #F76C6C;
+  background: rgb(132,206,235);
+background: linear-gradient(0deg, rgba(136,96,208,1) 0%, rgba(132,206,235,1) 78%);
 }
 .slide1 p{
   font-weight: 300;
@@ -101,18 +98,20 @@ p{
 .menu a {
   clear: right;
   text-decoration: none;
-  color: #A8D0E6;
+  color: #fff;
   margin: 0 10px;
   line-height: 70px;
 }
 .nav .menu {
   top:0;
-  background-color: #24305E;
+  background-color: #5ab9ea;
   position: fixed;
   z-index: 10;
   width: 100%;
   box-shadow: 0 1px 4px  rgba(0,0,0,.2);
 }
+
+
 label{
   margin: 0 40px 0 0;
   font-size: 26px;
@@ -139,34 +138,37 @@ label{
   font-weight: 700;
   margin-bottom: 10px;
   text-align: center;
-  color: #374785;
+  color: #5680E9;
 }
-.first-button a{
-  text-decoration: none;
-  color: #f76c6c;
 
-}
 .first-button{
-  display: block;
   margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  color: #8860d0;
+  padding: 10px;
+  width: 80px;
+  display: block;
   cursor: pointer;
   background-color: transparent;
-   border: 1px solid #f76c6c;
-   color: #f76c6c;
+   border: 1px solid #8860d0;;
+   color: #8860d0;;
    transition: all 0.3s ease-in-out;
    }
 
 .first-button:hover, .first-button a:hover{
   opacity: 0.8;
   transition:  0.4s ease;
-  background-color: #F8E9A1;
-  color:#f76c6c;
+  background-color: #8860d0;
+  color:#ffffff;
 
 }
 .content-box {
-  background: #2aa1d6;
+  background: #c1c8e4;
   text-align: center;
   width: 100%;
+  border: 1px solid #8860d0;
+  border-radius: 6px;
   max-width: 25em;
   padding: 0 0 1em;
   height: 250px;
@@ -181,12 +183,13 @@ label{
   font-size: 13px;
 }
 .content-box h4{   
-  color: #e6d1c1;
+  color: #8860d0;
 }
 .content-box .image-box {
   width: 100%;
   position: relative;
-  height: 00px;
+  height: 100px;
+  border-radius: 5px 5px 0 0 ;
   overflow: hidden;
 }
 .button {
@@ -211,7 +214,7 @@ label{
   font-weight: 500;
   border-radius: .25em;
   text-transform: uppercase;
-  background: #f76c6c!important;
+  background: #8860d0!important;
   box-shadow: none;
   border: .07em solid #ffffff;
 }
@@ -957,7 +960,7 @@ pre tt:after {
   height: 100%;
 }
 .site-footer{
-  background-color: #2aa1d6;
+  background-color: #5ab9ea;
   min-width: 100%; 
   height: 40px;
   bottom: 0px;
@@ -1037,7 +1040,7 @@ pre tt:after {
     cursor: pointer;
   }
   .nav{
-    background: url(https://www.adsyndicate.in/wp-content/uploads/2018/02/LP-bg-1.jpg);
+    background: #5ab9ea;
     position: fixed;
     width:100%;
     z-index: 99;
@@ -1047,11 +1050,11 @@ pre tt:after {
     text-align: center;
     width: 100%;
     display: none;
-    margin-top:69px;
+    margin-top:60px;
   }
   .menu a {
     display: block;
-    border-bottom: 1px solid rgb(109, 109, 143);
+    border-bottom: 1px solid #fff;
     margin:0;
   }
   #toggle:checked + .menu{
