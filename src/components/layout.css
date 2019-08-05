@@ -104,7 +104,7 @@ background: linear-gradient(0deg, rgba(136,96,208,1) 0%, rgba(132,206,235,1) 78%
 }
 .nav .menu {
   top:0;
-  background-color: #5ab9ea;
+  background-color: #8860d0;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -1040,7 +1040,7 @@ pre tt:after {
     cursor: pointer;
   }
   .nav{
-    background: #5ab9ea;
+    background: #8860d0;
     position: fixed;
     width:100%;
     z-index: 99;
