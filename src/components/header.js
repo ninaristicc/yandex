@@ -6,7 +6,7 @@ import ImageImg from "../components/imgimg"
 
 
 const Header = ({getRevolut}) => (
-
+  
   <header>
 <nav>
     <div style={{margin: `0`, maxWidth: 200}}>     
@@ -33,6 +33,9 @@ const Header = ({getRevolut}) => (
     </nav>
   </header>
 )
+
+
+
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
