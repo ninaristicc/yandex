@@ -4,7 +4,6 @@ import React from "react"
 import ImageLogo from "../components/logo"
 import ImageImg from "../components/imgimg"
 
-
 const Header = ({getRevolut}) => (
   
   <header>

@@ -1,8 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: `Get eWallet`,
+    title: `GetRevolut`,
     description: `Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option`,
     author: `@gatsbyjs`,
+    siteMetadata: {
+      title: 'Gatsby Default Starter',
+      menuLinks:[
+        {
+           name:'home',
+           link:'/'
+        },
+        {
+           name:'page2',
+         link:'/page-2'
+        }
+      ]
+    },
   }, 
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,7 +38,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/yandex.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     {

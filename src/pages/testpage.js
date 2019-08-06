@@ -1,10 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import Footer from "../components/footer"
-import Image from "../components/image"
 import ImageFour from "../components/imageFour"
 import ImageTwo from "../components/imageTwo"
-import ImageThree from "../components/imageThree"
 import SEO from "../components/seo"
 import ImageHero from "../components/ImageHero"
 
