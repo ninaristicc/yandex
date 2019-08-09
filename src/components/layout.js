@@ -13,6 +13,7 @@ import Footer from "./footer"
 import "./layout.css"
 
 
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -45,6 +46,7 @@ require('smooth-scroll')('a[href*="#"]', {
           paddingTop: 0,
         }}
       >
+        
         <main>{children}</main>
       </div>
       <Footer/>

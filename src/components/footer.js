@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 
 const Footer = () => (
-<footer class="site-footer">
+<footer  class="site-footer">
     <ul>
         {/* <li><h4><Link to="/">Get eWallet</Link></h4></li>
         <li><Link to="/paypal/">PayPal </Link></li>
@@ -14,7 +14,7 @@ const Footer = () => (
         <li><Link to="/skrill/">Skrill</Link></li>
         <li><Link to="/neteller/">Neteller</Link></li>
         <li><Link to="/blog/">Blog/News</Link></li> */}
-        <li><Link to="/testpage/">Test</Link></li>
+        <li ><a href="/testpage/" class="underline">Test</a></li>
        
 
 

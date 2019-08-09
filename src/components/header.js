@@ -16,10 +16,10 @@ const Header = ({getRevolut}) => (
       <label for="toggle">&#9776;</label>
       <input type="checkbox" id="toggle"/>
       <div class="menu">
-     <a href="/testpage/#top">Test</a>
-    <a href="#ewallet">What Is An eWallet?</a>
-    <a href="#generaluse">Top-Rated eWallet For General Use</a>
-    <a href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+     <a class="underline" href="/testpage/#top">Test</a>
+    <a class="underline" href="#ewallet">What Is An eWallet?</a>
+    <a class="underline" href="#generaluse">Top-Rated eWallet For General Use</a>
+    <a class="underline" href="#casinos">Best eWallets for Online Casinos & Gambling</a>
     {/* <a href="#location">Location</a> */}
     {/* <a href="/yandex/">Yandex</a>    
     <a href="/other/">Other</a>  
