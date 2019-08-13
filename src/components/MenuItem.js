@@ -1,4 +1,5 @@
 import React from "react"
+import { Z_FIXED } from "zlib";
 
 class MenuItem extends React.Component{
     constructor(props){
@@ -20,6 +21,7 @@ class MenuItem extends React.Component{
           animationDelay:this.props.delay,
         },
         menuItem:{
+          
           fontFamily:`'Open Sans', sans-serif`,
           fontSize: '1.2rem',
           padding: '1rem 0',
@@ -33,8 +35,8 @@ class MenuItem extends React.Component{
         },
         line: {
           width: '90%',
-          height: '1px',
-          background: 'gray',
+          height: '0.8px',
+          background: '#2aa1d6',
           margin: '0 auto',
           animation: '0.5s shrink forwards',
           animationDelay:this.props.delay,

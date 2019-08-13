@@ -28,20 +28,25 @@ class  Header extends React.Component {
     const styles= 
       {
         container:{
-          position: 'absolute',
+          position: 'fixed',
           top: 0,
+          textAlign: 'right',
           left: 0,
           zIndex: '99',
           opacity: 0.9,
           display:'flex',
           alignItems:'center',
-          background: 'red',
+          background: '#E0F8F1',
           width: '100%',
-          color: 'red',
-          fontFamily:'Lobster',
         },
         logo: {
-          margin: '0 auto',
+          maxWidth: '200px',
+          position: 'fixed',
+          top: '10px',
+          left: '10px',
+          width: '200px',
+          overflow: 'hidden',
+          zIndex: '100',
         },
         body: {
           display: 'flex',
@@ -73,8 +78,8 @@ class  Header extends React.Component {
    
     <div>
         <div style={styles.container}>
-          <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
-          <div style={styles.logo}>Logo</div>
+          <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='black'/>
+          <div style={styles.logo}><ImageLogo /></div>
         </div>
         <Menu open={this.state.menuOpen}>
           {menuItems}

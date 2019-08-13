@@ -12,7 +12,7 @@ a {
   height: 40px;
   padding: 6px;
   display: block;
-  position: relative;
+  position: fixed;
   margin-top: 35px;
   z-index: 100;
   background: #2980b9;
@@ -26,6 +26,7 @@ a {
   overflow: hidden;
 }
 .hamburger-menu-button-open {
+  position: fixed;
   top: 50%;
   margin-top: -1px;
   left: 50%;

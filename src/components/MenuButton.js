@@ -22,11 +22,12 @@ class MenuButton extends React.Component {
       const styles = {
         container: {
           height: '50px',
+          right: '5px',
           width: '32px',
           display:'flex',
           flexDirection: 'column',
           justifyContent: 'center',
-          alignItems: 'center',
+          alignItems: 'right',
           cursor: 'pointer',
           padding: '4px',
         },

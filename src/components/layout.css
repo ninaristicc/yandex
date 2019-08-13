@@ -145,20 +145,6 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   width: 100%;
   box-shadow: 0 1px 4px  rgba(0,0,0,.2);
 }
-a.underline {
-  padding-bottom: 3px;
-  display: inline-block;
-  transition: all 500ms ease;
-}
-
-a.underline:after {
-  content: '';
-  display: block;
-  margin: auto;
-  height: 3px;
-  width: 0px;
-  transition: width .5s ease, background-color .5s ease;
-}
 
 a.underline:hover {
   color: #2aa1d6;
@@ -1051,7 +1037,8 @@ pre tt:after {
     margin-bottom: 60px;
   }
   a {
-    color: #ff7013;
+    color: #e67c36;
+    padding-right: 200px;
     text-decoration: none;
   }
 

@@ -16,16 +16,16 @@ class Menu extends React.Component {
     render(){
       const styles={
         container: {
-          position: 'absolute',
+          position: 'fixed',
           top: 0,
           left: 0,
           height: this.state.open? '100%': 0,
           width: '100vw',
           display: 'flex',
           flexDirection: 'column',
-          background: 'black',
+          background: '#E0F8F1',
           opacity: 0.95,
-          color: '#fafafa',
+          color: '#3333',
           transition: 'height 0.3s ease',
           zIndex: 2,
         },
