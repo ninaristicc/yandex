@@ -37,7 +37,7 @@ class  Header extends React.Component {
           alignItems:'center',
           background: 'red',
           width: '100%',
-          color: 'white',
+          color: 'red',
           fontFamily:'Lobster',
         },
         logo: {
@@ -70,7 +70,7 @@ class  Header extends React.Component {
 
     return (
   <header>
-   {/* <nav id="ham-navigation" class="ham-menu">
+   
     <div>
         <div style={styles.container}>
           <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
@@ -80,10 +80,9 @@ class  Header extends React.Component {
           {menuItems}
         </Menu>
         
-    </div>
-    </nav> */}
+    </div>     
     
-<nav id="ham-navigation" class="ham-menu">
+{/*<nav id="ham-navigation" class="ham-menu">
     <div style={{margin: `0`, maxWidth: 200}}>     
       <div class="logo-style">
       <Link to="/"> <ImageLogo /></Link></div>
@@ -103,9 +102,9 @@ class  Header extends React.Component {
     <a href="/skrill/">Skrill</a>  
     <a href="/neteller/">Neteller</a>  
     <a href="/blog/">Blog/News</a>   */}
+    {/*</div>
     </div>
-    </div>
-    </nav>
+  </nav>*/}
   </header>
     )
   }
