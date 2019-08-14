@@ -35,7 +35,7 @@ class MenuItem extends React.Component{
         },
         line: {
           width: '90%',
-          height: '0.8px',
+          height: '1px',
           background: '#2aa1d6',
           margin: '0 auto',
           animation: '0.5s shrink forwards',
