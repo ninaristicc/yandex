@@ -57,6 +57,7 @@ p{
 }
 .hide-button {
   visibility: hidden;
+  margin-right: 10px;
 }
 .slide1{
   height: 100vh;

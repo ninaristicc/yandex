@@ -29,7 +29,7 @@ class Menu extends React.Component {
           flexDirection: 'column',
           background: '#E0F8F1',
           opacity: 0.95,
-          color: '#3333',
+          color: '#fff',
           transition: 'height 0.3s ease',
           zIndex: 2,
         },

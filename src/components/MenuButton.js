@@ -34,13 +34,13 @@ class MenuButton extends React.Component {
           padding: '4px',
         },
         line: {
-          height: '2px',
-          width: '20px',
-          background: this.state.color,
+          height: '3px',
+          width: '24px',
+          background: '#015249',
           transition: 'all 0.2s ease',
         },
         lineTop: {
-          transform: this.state.open ? 'rotate(45deg)':'none',
+          transform: this.state.open ? 'rotate(40deg)':'none',
           transformOrigin: 'top left',
           marginBottom: '5px',
         },
