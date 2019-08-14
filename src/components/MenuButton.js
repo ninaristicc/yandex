@@ -1,4 +1,6 @@
 import React from "react"
+
+
 class MenuButton extends React.Component {
     constructor(props){
       super(props);
@@ -53,7 +55,7 @@ class MenuButton extends React.Component {
         },       
       }
       return(
-        <div style={styles.container} 
+        <div class="hide-button" style={styles.container} 
           onClick={this.props.onClick ? this.props.onClick: 
             ()=> {this.handleClick();}}>
           <div style={{...styles.line,...styles.lineTop}}/>

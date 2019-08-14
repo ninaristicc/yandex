@@ -1,5 +1,10 @@
 import React from "react"
+import { NEG_ONE } from "long";
+
+
 class Menu extends React.Component {
+
+
     constructor(props){
       super(props);
       this.state={
@@ -12,7 +17,6 @@ class Menu extends React.Component {
         this.setState({open:nextProps.open});
       }
     }
-    
     render(){
       const styles={
         container: {
@@ -32,6 +36,7 @@ class Menu extends React.Component {
         menuList: {
           paddingTop: '3rem',
         }
+        
       }
       return(
         <div style={styles.container}>

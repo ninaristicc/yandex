@@ -86,7 +86,16 @@ class  Header extends React.Component {
         </Menu>
         
     </div>     
-    
+
+    <div style={styles.container}>
+    <div style={styles.logo}><ImageLogo /></div>
+      <div class="menu">
+      <a  href="/testpage/#top">Test</a>
+    <a  href="#ewallet">What Is An eWallet?</a>
+    <a  href="#generaluse">Top-Rated eWallet For General Use</a>
+    <a  href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+      </div>
+    </div>
 {/*<nav id="ham-navigation" class="ham-menu">
     <div style={{margin: `0`, maxWidth: 200}}>     
       <div class="logo-style">
@@ -127,3 +136,4 @@ Header.defaultProps = {
   siteTitle: `getRevolut`,
 }
 export default Header
+

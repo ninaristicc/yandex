@@ -55,6 +55,9 @@ p{
   padding: 0;
   margin: 0 auto;
 }
+.hide-button {
+  visibility: hidden;
+}
 .slide1{
   height: 100vh;
   width: 100%;
@@ -119,29 +122,31 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   font-size: 13px;
   height: 60px;
   line-height: 69px;
-
 }
 .menu .nav {
   bottom: 0;
 }
 .menu {
-  background:#ffffff;
+  background:transparent;
   margin-bottom: 0;
+  margin-right: 0px;
+  z-index: 100;
 }
 .menu a {
   bottom: 0; 
+  padding: 10px;
   clear: right;
   text-decoration: none;
   color: #015249;
   transition:  0.3s ease;
-  margin: 0 10px;
-  line-height: 70px;
+  z-index: 99;
+  line-height: 60px;
 }
 .nav .menu {
   top:0;
   background-color: rgb(255, 255, 255);
   position: fixed;
-  z-index: 10;
+  z-index: 99;
   width: 100%;
   box-shadow: 0 1px 4px  rgba(0,0,0,.2);
 }
@@ -1038,7 +1043,6 @@ pre tt:after {
   }
   a {
     color: #e67c36;
-    padding-right: 200px;
     text-decoration: none;
   }
 
@@ -1082,6 +1086,9 @@ pre tt:after {
  }
 }
 @media only screen and (max-width: 957px){
+  .hide-button {
+    visibility: visible;
+  }
   .logo-style img{
     width: 100px;
   }
@@ -1108,6 +1115,7 @@ pre tt:after {
   }
   .menu a {
     display: block;
+    padding: 10px;
     border-bottom: 1px solid #fff;
     margin:0;
 
