@@ -14,7 +14,7 @@ const Footer = () => (
         <li><Link to="/skrill/">Skrill</Link></li>
         <li><Link to="/neteller/">Neteller</Link></li>
         <li><Link to="/blog/">Blog/News</Link></li> */}
-        <li ><a href="/testpage/" class="underline">Test</a></li>
+        <li ><a href="/#top" class="underline">Home</a></li>
        
 
 

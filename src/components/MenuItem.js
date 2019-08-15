@@ -21,7 +21,6 @@ class MenuItem extends React.Component{
           animationDelay:this.props.delay,
         },
         menuItem:{
-          
           fontFamily:`'Open Sans', sans-serif`,
           fontSize: '1.2rem',
           padding: '1rem 0',

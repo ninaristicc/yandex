@@ -33,8 +33,8 @@ class  Header extends React.Component {
           textAlign: 'right',
           left: 0,
           zIndex: '99',
-          opacity: 0.9,
           display:'flex',
+          opacity: 0.95,
           alignItems:'center',
           background: '#E0F8F1',
           width: '100%',
@@ -59,10 +59,10 @@ class  Header extends React.Component {
         },
       }
     const menu = [
-    <a class="underline" href="/#top">Test</a>,    
-    <a class="underline" href="#ewallet">What Is An eWallet?</a>,
-    <a class="underline" href="#generaluse">Top-Rated eWallet For General Use</a>,
-    <a class="underline" href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+    <a href="/#top">Home</a>,    
+    <a href="#ewallet">What Is An eWallet?</a>,
+    <a href="#generaluse">Top-Rated eWallet For General Use</a>,
+    <a href="#casinos">Best eWallets for Online Casinos & Gambling</a>
   ]
     const menuItems = menu.map((val,index)=>{
       return (
@@ -75,7 +75,7 @@ class  Header extends React.Component {
 
     return (
   <header>
-   
+   <nav>
     <div>
         <div style={styles.container}>
           <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='black'/>
@@ -90,35 +90,13 @@ class  Header extends React.Component {
     <div style={styles.container}>
     <div style={styles.logo}><ImageLogo /></div>
       <div class="menu">
-      <a  href="/#top">Test</a>
+      <a  href="/#top">Home</a>
     <a  href="#ewallet">What Is An eWallet?</a>
     <a  href="#generaluse">Top-Rated eWallet For General Use</a>
     <a  href="#casinos">Best eWallets for Online Casinos & Gambling</a>
       </div>
     </div>
-{/*<nav id="ham-navigation" class="ham-menu">
-    <div style={{margin: `0`, maxWidth: 200}}>     
-      <div class="logo-style">
-      <Link to="/"> <ImageLogo /></Link></div>
-    </div>
-    <div class="nav">
-      <label for="toggle">&#9776;</label>
-      <input type="checkbox" id="toggle"/>
-      <div class="menu">
-     <a class="underline" href="/testpage/#top">Test</a>
-    <a class="underline" href="#ewallet">What Is An eWallet?</a>
-    <a class="underline" href="#generaluse">Top-Rated eWallet For General Use</a>
-    <a class="underline" href="#casinos">Best eWallets for Online Casinos & Gambling</a>
-    {/* <a href="#location">Location</a> */}
-    {/* <a href="/yandex/">Yandex</a>    
-    <a href="/other/">Other</a>  
-    <a href="/ecopayz/">EcoPayz</a>  
-    <a href="/skrill/">Skrill</a>  
-    <a href="/neteller/">Neteller</a>  
-    <a href="/blog/">Blog/News</a>   */}
-    {/*</div>
-    </div>
-  </nav>*/}
+    </nav>
   </header>
     )
   }

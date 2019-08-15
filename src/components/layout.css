@@ -119,7 +119,7 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   font-size: 17px;
 }
 .menu {
-  background:transparent;
+  background: transparent;
   margin-bottom: 0;
   margin-right: 0px;
   z-index: 100;
