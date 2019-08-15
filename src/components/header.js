@@ -59,7 +59,7 @@ class  Header extends React.Component {
         },
       }
     const menu = [
-    <a class="underline" href="/testpage/#top">Test</a>,    
+    <a class="underline" href="/#top">Test</a>,    
     <a class="underline" href="#ewallet">What Is An eWallet?</a>,
     <a class="underline" href="#generaluse">Top-Rated eWallet For General Use</a>,
     <a class="underline" href="#casinos">Best eWallets for Online Casinos & Gambling</a>
@@ -90,7 +90,7 @@ class  Header extends React.Component {
     <div style={styles.container}>
     <div style={styles.logo}><ImageLogo /></div>
       <div class="menu">
-      <a  href="/testpage/#top">Test</a>
+      <a  href="/#top">Test</a>
     <a  href="#ewallet">What Is An eWallet?</a>
     <a  href="#generaluse">Top-Rated eWallet For General Use</a>
     <a  href="#casinos">Best eWallets for Online Casinos & Gambling</a>
