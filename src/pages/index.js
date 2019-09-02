@@ -10,12 +10,12 @@ import ImageThree from "../components/imageThree"
 import SEO from "../components/seo"
 import ImageHero from "../components/ImageHero"
 import ImageImg from "../components/imgimg"
-import { underline } from "ansi-colors";
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Revolut Review 2019 – Get Revolut App & Card" />
       <article class="home-content">
-      <div class="slide1">
+      <div class="slide0">
       <h1 class="main-h1" id="revolut" >Revolut Review 2019 – Get Revolut App & Card</h1>
     <a class="first-button" href="#about">About revolut</a>
 </div>

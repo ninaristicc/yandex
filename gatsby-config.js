@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Revolut App & Card Review 2019 – Guide & Revolut Casinos`,
     description: `Find out more about Revolut Online Payment services. Read the full guide 2019 about Revolut App, Card and Revolut Online Casinos.`,
-    author: `@gatsbyjs`,
+    author: `seo boss`,
   }, 
   plugins: [
     `gatsby-plugin-react-helmet`,
