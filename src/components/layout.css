@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -29,7 +29,7 @@
   }
 }
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 12px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -76,7 +76,6 @@ p{
   padding: 60px 0;
   display: table;
   background: rgb(86,128,233);
-background: linear-gradient(139deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%);
 
 }
 .slide2 {
@@ -85,7 +84,6 @@ background: linear-gradient(139deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81
   width: 100%;
   display: table;
   background: rgb(86,128,233);
-background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%);
 }
 .slide3{
   padding: 60px 0;
@@ -93,7 +91,6 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   width: 100%;
   display: table;
   background: rgb(86,128,233);
-background: linear-gradient(140deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%);
 }
 .slide4{
   padding: 60px 0;
@@ -101,48 +98,44 @@ background: linear-gradient(140deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81
   width: 100%;
   display: table;
   background: rgb(86,128,233);
-background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%);
 }
 .slide1 p{
-  font-weight: 300;
   width: 70%;
   color: #ffffff;
 }
 .slide2 p{
-  font-weight: 300;
   width: 70%;
   color: #ffffff;
 }
 .slide3 p{
-  font-weight: 300;
   width: 70%;
   color: #ffffff;
 }
 .slide3 ul li {
-  font-weight: 300;
   margin-left: auto;
-  font-size: 14px;
+  font-size: 17px;
   width: 80%;
+  font-family: 'Muli', sans-serif;
   color: #ffffff;
 }
 .slide4 p{
-  font-weight: 300;
   width: 70%;
   color: #ffffff;
 }
 .slide1 ol{
-  font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
   margin-left: auto; 
   width: 80%;
   color: #ffffff;
+  font-family: 'Muli', sans-serif;
+
 }
 .slide3 ol{
-  font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
   margin-left: auto; 
   width: 80%;
   color: #ffffff;
+
 }
 .logo-style{
   max-width: 200px;
@@ -158,12 +151,15 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
 }
 .article-style p{
   margin: auto auto 30px;
-  font-size: 17px;
+  font-size: 19px;
+  font-family: 'Muli', sans-serif; 
 }
 .menu {
   background: transparent;
   margin-bottom: 0;
   margin-right: 0px;
+  font-family: 'Muli', sans-serif; 
+  font-size: 13px;
   z-index: 100;
 }
 .menu a {
@@ -177,9 +173,9 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   line-height: 60px;
 }
 .main-h{
-  padding-top: 70px; 
+  padding-top: 40px; 
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   text-align: center;
   color: #015249;
 }
@@ -894,47 +890,15 @@ pre tt:after {
   font-size: '10px;';
 }
 
-.site-footer h4{
-  margin-left: 0;
-  font-size: 14px;
-}
-.site-footer ul{
-  display: block;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-size: 12px;
-}
-.site-footer ul li {
-  justify-content: space-between;
-  display: inline-block;
-  margin-left: 50px;
-  margin-right: 40px;
-  /* width: 15%; */
-  height: 100%;
-}
 .site-footer{
   background-color: #E0F8F1;
   min-width: 100%; 
   height: 40px;
   bottom: 0px;
   left: 0px;
+  font-size: 15px;
+  text-align: center;
   right: 0px;
-}
-.site-footer ul li a {
-  color: #015249;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.site-footer ul li a:hover {
-  color: rgba(32, 87, 190, 0.65);
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  height: 100%;
 }
 .center-image{
     display: block;
@@ -978,12 +942,6 @@ pre tt:after {
 .button{
   margin: 5px auto 5px auto;
 }
-.site-footer ul li{
-  display: inline-block;
-  margin-left: 7px;
-  margin-right: 7px;
-  font-size: 10px;
- }
 }
 @media only screen and (max-width: 1450px){
   .hide-button {
@@ -1034,13 +992,20 @@ pre tt:after {
       font-size: 20px;
     }
     .article-style p{
-      font-size: 14px;
+      font-size: 16px;
       padding: 0px;
     }
     .first-button{
       padding: 10px;
       font-size: 13px;
       width: 80px;
+    }
+   .slide3 ul li{
+      font-size: 16px;
+      margin: auto auto;
+    }
+    .slide1 ol{
+      font-size: 16px;
     }
 }
   @media only screen and (max-width: 580px){
