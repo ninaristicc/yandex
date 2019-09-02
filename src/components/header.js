@@ -59,10 +59,15 @@ class  Header extends React.Component {
         },
       }
     const menu = [
-    <a href="/#top">Home</a>,    
-    <a href="#ewallet">What Is An eWallet?</a>,
-    <a href="#generaluse">Top-Rated eWallet For General Use</a>,
-    <a href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+      <a href="/#top">Home</a>,    
+      <a href="#about">About Revolut</a>,
+      <a href="#services">Revolut services 2019</a>,
+      <a href="#options">Card options</a>,
+      <a href="#app">Revolut App – Sign up & Link Payment Method</a>,
+      <a href="#casinos">Revolut & Online Casinos</a>,
+      <a href="#crypto">Revolut & Cryptocurrencies</a>,
+      <a href="#conclusion">Conclusion</a>,
+      <a href="#faqs">FAQS</a>
   ]
     const menuItems = menu.map((val,index)=>{
       return (
@@ -90,10 +95,15 @@ class  Header extends React.Component {
     <div style={styles.container}>
     <div style={styles.logo}><ImageLogo /></div>
       <div class="menu">
-      <a  href="/#top">Home</a>
-    <a  href="#ewallet">What Is An eWallet?</a>
-    <a  href="#generaluse">Top-Rated eWallet For General Use</a>
-    <a  href="#casinos">Best eWallets for Online Casinos & Gambling</a>
+      <a href="/#top">Home</a>    
+      <a href="#about">About Revolut</a>
+      <a href="#services">Revolut services in 2019</a>
+      <a href="#options">Card options</a>
+      <a href="#app">Revolut App – Sign up & Link Payment Method</a>
+      <a href="#casinos">Revolut & Online Casinos</a>
+      <a href="#crypto">Revolut & Cryptocurrencies</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="#faqs">FAQS</a>
       </div>
     </div>
     </nav>

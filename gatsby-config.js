@@ -1,11 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `GetRevolut`,
-    description: `Whether you want to improve your consumer experience online or just enjoy yourself by playing your favorite casino games without any fuss, ewallets must be your default payment processing option`,
+    title: `Revolut App & Card Review 2019 – Guide & Revolut Casinos`,
+    description: `Find out more about Revolut Online Payment services. Read the full guide 2019 about Revolut App, Card and Revolut Online Casinos.`,
     author: `@gatsbyjs`,
-    siteMetadata: {
-      title: 'Gatsby Default Starter',
-    },
   }, 
   plugins: [
     `gatsby-plugin-react-helmet`,

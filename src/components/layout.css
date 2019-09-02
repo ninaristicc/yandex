@@ -102,6 +102,37 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   width: 70%;
   color: #ffffff;
 }
+.slide3 p{
+  font-weight: 300;
+  width: 70%;
+  color: #ffffff;
+}
+.slide3 ul li {
+  font-weight: 300;
+  margin-left: auto;
+  font-size: 14px;
+  width: 80%;
+  color: #ffffff;
+}
+.slide4 p{
+  font-weight: 300;
+  width: 70%;
+  color: #ffffff;
+}
+.slide1 ol{
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: auto; 
+  width: 80%;
+  color: #ffffff;
+}
+.slide3 ol{
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: auto; 
+  width: 80%;
+  color: #ffffff;
+}
 .logo-style{
   max-width: 200px;
   position: fixed; 
@@ -111,8 +142,8 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   overflow: hidden;
   z-index: 100;
 }
-.article-style{
-  height:80%;
+.article-style1{
+  margin-top: 18%;
 }
 .article-style p{
   margin: auto auto 30px;
@@ -935,7 +966,7 @@ pre tt:after {
   font-size: 10px;
  }
 }
-@media only screen and (max-width: 957px){
+@media only screen and (max-width: 1450px){
   .hide-button {
     visibility: visible;
   }
