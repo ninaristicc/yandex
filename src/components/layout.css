@@ -172,7 +172,15 @@ background: linear-gradient(45deg, rgba(86,128,233,1) 0%, rgba(87,188,144,1) 81%
   text-align: center;
   color: #015249;
 }
+.main-h1{
+  padding-top: 70px; 
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #015249;
+  margin-top: 18%;
 
+}
 .first-button{
   margin: 0 auto;
   text-decoration: none;

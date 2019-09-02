@@ -14,23 +14,22 @@ import { underline } from "ansi-colors";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home page" />
-    <div class="home-content">
-    <div class="slide1">
-    <article class="article-style1">
-    <h1 class="main-h" id="choose" >Revolut Review 2019 – Get Revolut App & Card</h1>
-    <a class="first-button" href="#about">About revolut</a></article>
-    </div>
+    <SEO title="Revolut Review 2019 – Get Revolut App & Card" />
+      <article class="home-content">
+      <div class="slide1">
+      <h1 class="main-h1" id="revolut" >Revolut Review 2019 – Get Revolut App & Card</h1>
+    <a class="first-button" href="#about">About revolut</a>
+</div>
     <div class="slide2">
-    <article class="article-style">
+    <section class="article-style">
     <h2 class="main-h" id="about">About Revolut</h2>
     <p>Revolut is a banking organisation that operates as an entirely digital bank, aiming to offer users a fast, reliable and hassle-free online payment service. Revolut mainly works through a mobile app, though there are other ways you can do your banking with this payment method.</p>
     <div class="center-image" alt="Revolut Guide 2019" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
-    <p>The company behind Revolut is based in the UK. The payment method was released for public use in July 2015 and some four years later, the company claimed that six million people used it regularly. So far, there have been over 350 million transactions made using Revolut and more than £40 billion has been handled using the payment method.</p></article>
+    <p>The company behind Revolut is based in the UK. The payment method was released for public use in July 2015 and some four years later, the company claimed that six million people used it regularly. So far, there have been over 350 million transactions made using Revolut and more than £40 billion has been handled using the payment method.</p></section>
     </div>
     <div class="slide3">
-    <article class="article-style">
+    <section class="article-style">
     <h3 class="main-h" id="services">Revolut Services in 2019</h3>
     <p>Revolut offers a range of convenient features. There are three plans to choose from: <strong>Standard, Premium and Metal</strong>. The Standard option is free, though it offers the fewest features. Both the other two options require payment: £6.99 per month for Premium and £12.99 per month for Metal. Premium has more features available than Standard, while Metal offers the full range of Revolut services.</p>
     <div class="center-image" alt="Transfer Money Online – Send & Request" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -58,19 +57,19 @@ const IndexPage = () => (
       <li>Cashback of 0.1% while in Europe and 1% outside of Europe on all card payments</li>
       <li>Concierge access</li>
       </ul>
-    </article>
+    </section>
   </div>
   <div class="slide4">
-  <article class="article-style">
+  <section class="article-style">
   <h3 class="main-h" id="options">Card Options</h3>
       <p>While Revolut is mostly an online banking system, you can opt for a physical card if you sign up for one of the two paid options (Premium or Metal). If you apply for a card, it should take nine working days to reach you with standard delivery, or three days with express delivery. You’re able to order a card through the Revolut app. </p>
       <div class="center-image" alt="Metal Revolut Card" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
     <p><strong>Ordering a card is free</strong>, though there may be delivery charges; there are some countries that Revolut doesn’t deliver to (check the website’s Help Centre for more information). Only your first card is free. There’s a small charge of £4.99 per card for any cards after your first, though you may qualify for extra free cards by sharing the news of your card with people you know.</p>
-    </article>
+    </section>
   </div>
   <div class="slide1">
-  <article class="article-style">
+  <section class="article-style">
   <h3 class="main-h" id="app">Revolut App – Sign up & Link Payment Method</h3>
       <p>If you like the sound of Revolut, you’ll find it’s very easy to start using this payment method. All you have to do is <strong>download the app onto your mobile device</strong> - it’s compatible with both smartphones and tablets. If you’re using an Apple Watch, iPad or iPhone, your device will need to be using iOS 10 or above to be compatible with the app.  </p>
       <p>For Android devices, it’s Android 6.0 or newer you’ll need. The process of getting Revolut on your mobile device is quick and easy. You should have no problems getting everything set up and the payment method should be available to use before you know it. </p>
@@ -85,17 +84,17 @@ const IndexPage = () => (
         </strong>
       </ol>
       <p>Note that for cards, only Visa, Mastercard and Maestro are accepted. </p>
-    </article></div>
+    </section></div>
     <div class="slide2">
-    <article class="article-style">
+    <section class="article-style">
     <h2 class="main-h" id="casinos">Revolut & Online Casinos</h2>
     <p>As of the time of writing, Revolut can be used to carry out a broad range of online transactions. It seems that the payment method isn’t currently available to use at online casinos for real-money gambling. However, there’s every chance that this will change in the near future and that Revolut will become available as an option for gambling online with real money. </p>
     <div class="center-image" alt="Online Casinos that accept Revolut Payment Method" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
-    <p>Online casino operators are keen to accept payment methods that are easy to use, convenient and reliable. Since Revolut ticks all of these boxes, it shouldn’t be too long before many keen online gamblers are able to select it as their preferred payment method. </p></article>
+    <p>Online casino operators are keen to accept payment methods that are easy to use, convenient and reliable. Since Revolut ticks all of these boxes, it shouldn’t be too long before many keen online gamblers are able to select it as their preferred payment method. </p></section>
     </div>
     <div class="slide3">
-    <article class="article-style">
+    <section class="article-style">
     <h2 class="main-h" id="crypto">Revolut & Cryptocurrencies</h2>
     <p>In recent years, cryptocurrencies have taken off and become very popular throughout the world. It all started with Bitcoin, which was officially launched for public use in 2009. Since then, a growing number of other cryptocurrencies have followed in its wake. Many people prefer using cryptocurrencies for online transactions because of the fast process times and the high levels of anonymity and security they offer.</p>
     <div class="center-image" alt="Exchange from fiat to cryptocurrencies" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -109,20 +108,20 @@ const IndexPage = () => (
       <li>XRP</li>
     </ol>
     <p>Getting fiat currencies exchanged into cryptocurrencies at crypto exchanges can take some time to do; it’s also not the most straightforward of processes a lot of the time. Revolut aims to make the whole process of converting fiat currencies into cryptocurrencies much more convenient and seamless. </p>
-    </article>
+    </section>
     </div>
   
   <div class="slide4">
-  <article class="article-style">
+  <section class="article-style">
   <h3 class="main-h" id="conclusion">Conclusion</h3>
       <p>Revolut is designed to make online transactions much more reliable and convenient. It’s a modern, user-friendly payment method that’s centred on the app, though there are options to get physical and virtual cards should you wish to do so. Though Revolut is one of the newer payment methods available to use, it’s experienced a lot of success so far, with over six million regular users. </p>
       <div class="center-image" alt="Revolut App – Safe & Secure Digital Bank" style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     <ImageFour /> </div>
     <p>This page offers lots of information about the payment method and its different packages. For more detailed information, check out the official Revolut website. Stick with Revolut for hassle-free online payments that are quick, safe and reliable.</p>
-    </article>
-  </div></div>
+    </section>
+  </div>
   <div class="slide1">
-  <article class="article-style">
+  <section class="article-style">
   <h3 class="main-h" id="faqs">FAQS</h3>
      <h4 class="main-h">How much does Revolut cost?</h4>
       <p>Revolut can be free to use - that is, if you go for the Standard package. The two other packages, Premium and Metal, are available for a monthly charge. Even with a Standard package, there are some extra fees. These include delivery fees for Revolut cards, £4.99 for Revolut cards after your first, £5 to have your card replaced, a withdrawal fee of 2% once you’ve passed your £200 monthly limit and certain currency conversion fees. For all full list of extra charges for all three packages, check with the Revolut Help Centre. </p>
@@ -147,8 +146,9 @@ const IndexPage = () => (
      <p>The Revolut app has an in-app chat feature you can use around-the-clock to speak with a team member. Note that those who opt for one of the two paid packages have priority customer support. </p>
      <h4 class="main-h">Can I change packages once I’ve subscribed to one?</h4>
      <p>Yes, it’s possible for you to change packages. At any time you can move from the free Standard package to any two of the paid packages or vice versa; you can also switch from one paid package to the other. </p>
-    </article>
+    </section>
   </div>
+  </article>
   </Layout>
 )
 
