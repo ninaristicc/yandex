@@ -64,7 +64,7 @@ p{
   width: 100%;
   padding: 60px 0;
   display: table;
-  background: rgb(86,128,233);
+  background: #2ba1cf;
   background-image: url(../images/get-revolut-hero.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -73,9 +73,9 @@ p{
 .slide1{
   height: 100vh;
   width: 100%;
+  background: #2ba1cf;
   padding: 60px 0;
   display: table;
-  background: rgb(86,128,233);
 
 }
 .slide2 {
@@ -83,21 +83,21 @@ p{
  height: 100vh;
   width: 100%;
   display: table;
-  background: rgb(86,128,233);
+  background: #2ba1cf;
 }
 .slide3{
   padding: 60px 0;
   height: 100vh;
   width: 100%;
   display: table;
-  background: rgb(86,128,233);
+  background: #2ba1cf;
 }
 .slide4{
   padding: 60px 0;
   height: 100vh;
   width: 100%;
   display: table;
-  background: rgb(86,128,233);
+  background: #2ba1cf;
 }
 .slide1 p{
   width: 70%;
@@ -177,14 +177,14 @@ p{
   font-weight: 700;
   margin-bottom: 40px;
   text-align: center;
-  color: #015249;
+  color: #dea470;
 }
 .main-h1{
   padding-top: 70px; 
   font-weight: 700;
   margin-bottom: 50px;
   text-align: center;
-  color: #021b18;
+  color: #fff;
   margin-top: 18%;
 
 }
@@ -192,15 +192,15 @@ p{
   margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  color: #021b18;
+  color: #dea470;
   padding: 20px;
   width: 120px;
   font-size: 15px;
   display: block;
   cursor: pointer;
   background-color: transparent;
-   border: 1px solid #021b18;
-   color: #021b18;
+   border: 1px solid #dea470;
+   color: #dea470;
    transition: all 0.3s ease-in-out;
    }
 
@@ -208,7 +208,7 @@ p{
   opacity: 0.8;
   text-decoration: none;
   transition:  0.4s ease;
-  background-color: #015249;
+  background-color: #dea470;
   color:#ffffff;
 
 }
@@ -891,7 +891,7 @@ pre tt:after {
 }
 
 .site-footer{
-  background-color: #E0F8F1;
+  background-color: #dea470;
   min-width: 100%; 
   height: 40px;
   bottom: 0px;

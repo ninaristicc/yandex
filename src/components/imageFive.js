@@ -19,7 +19,7 @@ const ImageFive = () => {
     query {
       placeholderImage: file(relativePath: { eq: "Transfer-Money-Online-Send-&-Request.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 1000, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }

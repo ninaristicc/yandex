@@ -35,7 +35,7 @@ class  Header extends React.Component {
           display:'flex',
           opacity: 0.95,
           alignItems:'center',
-          background: '#E0F8F1',
+          background: '#fff',
           width: '100%',
         },
         logo: {
