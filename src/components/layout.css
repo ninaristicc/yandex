@@ -192,23 +192,22 @@ p{
   margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  color: #dea470;
+  color: #2ba1cf;
   padding: 20px;
   width: 120px;
   font-size: 15px;
   display: block;
   cursor: pointer;
-  background-color: transparent;
-   border: 1px solid #dea470;
-   color: #dea470;
+  background-color: #2ba1cf;
+   border: 1px solid #2ba1cf;
+   color: #ffffff;
    transition: all 0.3s ease-in-out;
    }
 
 .first-button:hover, .first-button a:hover{
-  opacity: 0.8;
   text-decoration: none;
   transition:  0.4s ease;
-  background-color: #dea470;
+  background-color: #2480a5;
   color:#ffffff;
 
 }
