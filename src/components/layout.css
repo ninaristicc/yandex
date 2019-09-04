@@ -167,7 +167,7 @@ p{
   padding: 10px;
   clear: right;
   text-decoration: none;
-  color: #015249;
+  color: #343434;
   transition:  0.3s ease;
   z-index: 99;
   line-height: 60px;
@@ -909,7 +909,7 @@ pre tt:after {
     margin-bottom: 60px;
   }
   a {
-    color: #e67c36;
+    color: #343434;
     text-decoration: none;
   }
 
