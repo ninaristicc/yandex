@@ -65,7 +65,7 @@ p{
   padding: 60px 0;
   display: table;
   background: rgb(86,128,233);
-  background-image: url(https://niwaterworks.com/wp-content/uploads/2019/07/payonline.jpg);
+  background-image: url(../images/get-revolut-hero.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ p{
   font-weight: 700;
   margin-bottom: 50px;
   text-align: center;
-  color: #015249;
+  color: #021b18;
   margin-top: 18%;
 
 }
@@ -192,15 +192,15 @@ p{
   margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  color: #015249;
+  color: #021b18;
   padding: 20px;
   width: 120px;
   font-size: 15px;
   display: block;
   cursor: pointer;
   background-color: transparent;
-   border: 1px solid #015249;
-   color: #015249;
+   border: 1px solid #021b18;
+   color: #021b18;
    transition: all 0.3s ease-in-out;
    }
 

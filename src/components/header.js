@@ -2,7 +2,6 @@ import {Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import ImageLogo from "../components/logo"
-import ImageImg from "../components/imgimg"
 import MenuItem from './MenuItem';
 import MenuButton from './MenuButton';
 import Menu from './Menu';
