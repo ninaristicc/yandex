@@ -19,7 +19,7 @@ const ImageTwo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "Online-Casinos-that-accept-Revolut-Payment-Method.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
